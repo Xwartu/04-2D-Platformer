@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/triangular ideology-the fan sequel.ogg-fbcbda31eacd57dc64e2624f11ebdf50.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/triangular ideology-the fan sequel.ogg"
+dest_files=[ "res://.import/triangular ideology-the fan sequel.ogg-fbcbda31eacd57dc64e2624f11ebdf50.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

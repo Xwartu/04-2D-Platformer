@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/CHIPTUNE_The_Bards_Tale.ogg-6703762e9fe9f399afd771e8ea4ec53c.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/CHIPTUNE_The_Bards_Tale.ogg"
+dest_files=[ "res://.import/CHIPTUNE_The_Bards_Tale.ogg-6703762e9fe9f399afd771e8ea4ec53c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
