@@ -13,6 +13,7 @@ func _physics_process(_delta):
 		$Sprite.flip_h = false
 		
 	velocity.x += direction * speed
+	velocity.y += 9.8
 	move_and_slide_with_snap(velocity, Vector2.UP)
 
 

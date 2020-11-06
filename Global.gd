@@ -2,7 +2,7 @@ extends Node
 
 var fade = null
 var fade_speed = 0.015
-onready var score = 0
+var score = 0
 
 var fade_in = false
 var fade_out = ""
