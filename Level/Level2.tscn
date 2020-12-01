@@ -1,48 +1,48 @@
 [gd_scene load_steps=82 format=2]
 
-[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Camera/Camera.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Assets/Level Pieces/Medieval/medieval_tilesheet_2X.png" type="Texture" id=3]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grass.png" type="Texture" id=4]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassCenter.png" type="Texture" id=5]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleRight.png" type="Texture" id=6]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillLeft2.png" type="Texture" id=7]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillRight.png" type="Texture" id=8]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleMid.png" type="Texture" id=9]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassRight.png" type="Texture" id=10]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassLeft.png" type="Texture" id=11]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillRight2.png" type="Texture" id=12]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassMid.png" type="Texture" id=13]
-[ext_resource path="res://Player/Player Instance.gd" type="Script" id=14]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillLeft.png" type="Texture" id=15]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleCenter.png" type="Texture" id=16]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleCliffRight.png" type="Texture" id=17]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleLeft.png" type="Texture" id=18]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castleCliffLeft.png" type="Texture" id=19]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassCliffRightAlt.png" type="Texture" id=20]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassCliffLeftAlt.png" type="Texture" id=21]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillLeft.png" type="Texture" id=22]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillLeft2.png" type="Texture" id=23]
-[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillRight2.png" type="Texture" id=24]
-[ext_resource path="res://Assets/Level Pieces/Tiles/liquidLava.png" type="Texture" id=25]
-[ext_resource path="res://Assets/Level Pieces/Tiles/liquidLavaTop.png" type="Texture" id=26]
-[ext_resource path="res://Assets/Level Pieces/Tiles/liquidWater.png" type="Texture" id=27]
-[ext_resource path="res://Assets/Level Pieces/Tiles/liquidWaterTop.png" type="Texture" id=28]
-[ext_resource path="res://Tile.tres" type="TileSet" id=29]
-[ext_resource path="res://Assets/Enemies/robot_redJump.png" type="Texture" id=30]
-[ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=31]
-[ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=32]
-[ext_resource path="res://Assets/Enemies/robot_blueDrive2.png" type="Texture" id=33]
-[ext_resource path="res://Blocker.gd" type="Script" id=34]
-[ext_resource path="res://Assets/Level Pieces/Ice/rock.png" type="Texture" id=35]
-[ext_resource path="res://Assets/Level Pieces/Foliage/foliagePack_default.png" type="Texture" id=36]
-[ext_resource path="res://Assets/Level Pieces/Foliage/treeLeaves_default.png" type="Texture" id=37]
-[ext_resource path="res://Assets/Audio/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=38]
-[ext_resource path="res://Assets/Level Pieces/Tiles/castle.png" type="Texture" id=39]
-[ext_resource path="res://Coin/Coin_Container.gd" type="Script" id=40]
-[ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=41]
-[ext_resource path="res://Assets/Fonts/kenpixel_square.ttf" type="DynamicFontData" id=42]
-[ext_resource path="res://Level/Exit.gd" type="Script" id=43]
+[ext_resource path="res://Blocker.gd" type="Script" id=1]
+[ext_resource path="res://Coin/Coin_Container.gd" type="Script" id=2]
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Camera/Camera.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Tile.tres" type="TileSet" id=6]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castle.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Audio/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=8]
+[ext_resource path="res://Level/Exit.gd" type="Script" id=9]
+[ext_resource path="res://Player/Player Instance.gd" type="Script" id=10]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassMid.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleCliffRight.png" type="Texture" id=12]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillLeft.png" type="Texture" id=13]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleLeft.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleCliffLeft.png" type="Texture" id=15]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassCliffRightAlt.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillLeft.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillRight2.png" type="Texture" id=18]
+[ext_resource path="res://Assets/Level Pieces/Tiles/liquidLava.png" type="Texture" id=19]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillRight.png" type="Texture" id=20]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleRight.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Level Pieces/Medieval/medieval_tilesheet_2X.png" type="Texture" id=22]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillLeft2.png" type="Texture" id=23]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grass.png" type="Texture" id=24]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleMid.png" type="Texture" id=25]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassRight.png" type="Texture" id=26]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleCenter.png" type="Texture" id=27]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassCliffLeftAlt.png" type="Texture" id=28]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassHillLeft2.png" type="Texture" id=29]
+[ext_resource path="res://Assets/Level Pieces/Tiles/liquidLavaTop.png" type="Texture" id=30]
+[ext_resource path="res://Assets/Enemies/robot_redJump.png" type="Texture" id=31]
+[ext_resource path="res://Assets/Level Pieces/Tiles/liquidWater.png" type="Texture" id=32]
+[ext_resource path="res://Assets/Level Pieces/Tiles/liquidWaterTop.png" type="Texture" id=33]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassCenter.png" type="Texture" id=34]
+[ext_resource path="res://Assets/Level Pieces/Tiles/castleHillRight2.png" type="Texture" id=35]
+[ext_resource path="res://Assets/Level Pieces/Tiles/grassLeft.png" type="Texture" id=36]
+[ext_resource path="res://Assets/Enemies/robot_blueDrive2.png" type="Texture" id=37]
+[ext_resource path="res://Assets/Level Pieces/Ice/rock.png" type="Texture" id=38]
+[ext_resource path="res://Assets/Level Pieces/Foliage/foliagePack_default.png" type="Texture" id=39]
+[ext_resource path="res://Assets/Level Pieces/Foliage/treeLeaves_default.png" type="Texture" id=40]
+[ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=41]
+[ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=42]
+[ext_resource path="res://Assets/Fonts/kenpixel_square.ttf" type="DynamicFontData" id=43]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 70, 70, 0, 70, 0, 0, 70, 0 )
@@ -118,7 +118,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 
 [sub_resource type="TileSet" id=25]
 11/name = "grass.png 11"
-11/texture = ExtResource( 4 )
+11/texture = ExtResource( 24 )
 11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 0, 0, 70, 70 )
@@ -139,7 +139,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 11/z_index = 0
 12/name = "grassRight.png 12"
-12/texture = ExtResource( 10 )
+12/texture = ExtResource( 26 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 0, 0, 70, 70 )
@@ -160,7 +160,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 12/z_index = 0
 13/name = "grassMid.png 13"
-13/texture = ExtResource( 13 )
+13/texture = ExtResource( 11 )
 13/tex_offset = Vector2( 0, 0 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 0, 0, 70, 70 )
@@ -181,7 +181,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 13/z_index = 0
 14/name = "grassLeft.png 14"
-14/texture = ExtResource( 11 )
+14/texture = ExtResource( 36 )
 14/tex_offset = Vector2( 0, 0 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 0, 0, 70, 70 )
@@ -202,7 +202,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 14/z_index = 0
 16/name = "castleCenter.png 16"
-16/texture = ExtResource( 16 )
+16/texture = ExtResource( 27 )
 16/tex_offset = Vector2( 0, 0 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 70, 70 )
@@ -223,7 +223,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 16/z_index = 0
 17/name = "castleCliffLeft.png 17"
-17/texture = ExtResource( 19 )
+17/texture = ExtResource( 15 )
 17/tex_offset = Vector2( 0, 0 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 70, 70 )
@@ -244,7 +244,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 17/z_index = 0
 18/name = "castleCliffRight.png 18"
-18/texture = ExtResource( 17 )
+18/texture = ExtResource( 12 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 0, 0, 70, 70 )
@@ -265,7 +265,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 18/z_index = 0
 19/name = "castleHillLeft.png 19"
-19/texture = ExtResource( 15 )
+19/texture = ExtResource( 13 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 70, 70 )
@@ -286,7 +286,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 19/z_index = 0
 20/name = "castleHillLeft2.png 20"
-20/texture = ExtResource( 7 )
+20/texture = ExtResource( 23 )
 20/tex_offset = Vector2( 0, 0 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 70, 70 )
@@ -307,7 +307,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 20/z_index = 0
 21/name = "castleHillRight2.png 21"
-21/texture = ExtResource( 12 )
+21/texture = ExtResource( 35 )
 21/tex_offset = Vector2( 0, 0 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 70, 70 )
@@ -328,7 +328,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 21/z_index = 0
 22/name = "castleHillRight.png 22"
-22/texture = ExtResource( 8 )
+22/texture = ExtResource( 20 )
 22/tex_offset = Vector2( 0, 0 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 70, 70 )
@@ -349,7 +349,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 22/z_index = 0
 23/name = "castleLeft.png 23"
-23/texture = ExtResource( 18 )
+23/texture = ExtResource( 14 )
 23/tex_offset = Vector2( 0, 0 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 70, 70 )
@@ -370,7 +370,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 23/z_index = 0
 24/name = "castleMid.png 24"
-24/texture = ExtResource( 9 )
+24/texture = ExtResource( 25 )
 24/tex_offset = Vector2( 0, 0 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 70, 70 )
@@ -391,7 +391,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 24/z_index = 0
 25/name = "castleRight.png 25"
-25/texture = ExtResource( 6 )
+25/texture = ExtResource( 21 )
 25/tex_offset = Vector2( 0, 0 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 70, 70 )
@@ -412,7 +412,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 25/z_index = 0
 26/name = "grassCliffLeftAlt.png 26"
-26/texture = ExtResource( 21 )
+26/texture = ExtResource( 28 )
 26/tex_offset = Vector2( 0, 0 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 70, 70 )
@@ -433,7 +433,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 26/z_index = 0
 27/name = "grassCliffRightAlt.png 27"
-27/texture = ExtResource( 20 )
+27/texture = ExtResource( 16 )
 27/tex_offset = Vector2( 0, 0 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 70, 70 )
@@ -454,7 +454,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 27/z_index = 0
 28/name = "liquidLavaTop.png 28"
-28/texture = ExtResource( 26 )
+28/texture = ExtResource( 30 )
 28/tex_offset = Vector2( 0, 0 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 70, 70 )
@@ -468,7 +468,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 28/shapes = [  ]
 28/z_index = 0
 30/name = "liquidLava.png 30"
-30/texture = ExtResource( 25 )
+30/texture = ExtResource( 19 )
 30/tex_offset = Vector2( 0, 0 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 0, 0, 70, 70 )
@@ -482,7 +482,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 30/shapes = [  ]
 30/z_index = 0
 31/name = "liquidWater.png 31"
-31/texture = ExtResource( 27 )
+31/texture = ExtResource( 32 )
 31/tex_offset = Vector2( 0, 0 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 0, 0, 70, 70 )
@@ -496,7 +496,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 31/shapes = [  ]
 31/z_index = 0
 32/name = "grassHillLeft.png 32"
-32/texture = ExtResource( 22 )
+32/texture = ExtResource( 17 )
 32/tex_offset = Vector2( 0, 0 )
 32/modulate = Color( 1, 1, 1, 1 )
 32/region = Rect2( 0, 0, 70, 70 )
@@ -517,7 +517,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 32/z_index = 0
 33/name = "grassHillRight2.png 33"
-33/texture = ExtResource( 24 )
+33/texture = ExtResource( 18 )
 33/tex_offset = Vector2( 0, 0 )
 33/modulate = Color( 1, 1, 1, 1 )
 33/region = Rect2( 0, 0, 70, 70 )
@@ -538,7 +538,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 33/z_index = 0
 34/name = "grassHillLeft2.png 34"
-34/texture = ExtResource( 23 )
+34/texture = ExtResource( 29 )
 34/tex_offset = Vector2( 0, 0 )
 34/modulate = Color( 1, 1, 1, 1 )
 34/region = Rect2( 60, 60, 90, 80 )
@@ -559,7 +559,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 34/z_index = 0
 35/name = "grassHillLeft2.png 35"
-35/texture = ExtResource( 23 )
+35/texture = ExtResource( 29 )
 35/tex_offset = Vector2( 0, 0 )
 35/modulate = Color( 1, 1, 1, 1 )
 35/region = Rect2( 60, 60, 10, 10 )
@@ -580,7 +580,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 35/z_index = 0
 36/name = "grassCenter.png 36"
-36/texture = ExtResource( 5 )
+36/texture = ExtResource( 34 )
 36/tex_offset = Vector2( 0, 0 )
 36/modulate = Color( 1, 1, 1, 1 )
 36/region = Rect2( 0, 0, 70, 70 )
@@ -601,7 +601,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 36/z_index = 0
 37/name = "liquidWaterTop.png 37"
-37/texture = ExtResource( 28 )
+37/texture = ExtResource( 33 )
 37/tex_offset = Vector2( 0, 0 )
 37/modulate = Color( 1, 1, 1, 1 )
 37/region = Rect2( -90, -120, 230, 280 )
@@ -622,7 +622,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 37/shapes = [  ]
 37/z_index = 0
 38/name = "castle.png 38"
-38/texture = ExtResource( 39 )
+38/texture = ExtResource( 7 )
 38/tex_offset = Vector2( 0, 0 )
 38/modulate = Color( 1, 1, 1, 1 )
 38/region = Rect2( 0, 0, 70, 70 )
@@ -643,7 +643,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 38/z_index = 0
 39/name = "medieval_tilesheet_2X.png 39"
-39/texture = ExtResource( 3 )
+39/texture = ExtResource( 22 )
 39/tex_offset = Vector2( 0, 0 )
 39/modulate = Color( 1, 1, 1, 1 )
 39/region = Rect2( 630, 140, 70, 70 )
@@ -664,7 +664,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 39/z_index = 0
 40/name = "medieval_tilesheet_2X.png 40"
-40/texture = ExtResource( 3 )
+40/texture = ExtResource( 22 )
 40/tex_offset = Vector2( 0, 0 )
 40/modulate = Color( 1, 1, 1, 1 )
 40/region = Rect2( 700, 140, 70, 70 )
@@ -685,7 +685,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 } ]
 40/z_index = 0
 41/name = "medieval_tilesheet_2X.png 41"
-41/texture = ExtResource( 3 )
+41/texture = ExtResource( 22 )
 41/tex_offset = Vector2( 0, 0 )
 41/modulate = Color( 1, 1, 1, 1 )
 41/region = Rect2( 280, 700, 210, 210 )
@@ -699,7 +699,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 41/shapes = [  ]
 41/z_index = 0
 42/name = "medieval_tilesheet_2X.png 42"
-42/texture = ExtResource( 3 )
+42/texture = ExtResource( 22 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
 42/region = Rect2( 1120, 140, 70, 210 )
@@ -713,7 +713,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 42/shapes = [  ]
 42/z_index = 0
 43/name = "medieval_tilesheet_2X.png 43"
-43/texture = ExtResource( 3 )
+43/texture = ExtResource( 22 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
 43/region = Rect2( 770, 140, 70, 70 )
@@ -727,7 +727,7 @@ points = PoolVector2Array( 70, 30, 0, 70, 0, 0, 70, 0 )
 43/shapes = [  ]
 43/z_index = 0
 44/name = "medieval_tilesheet_2X.png 44"
-44/texture = ExtResource( 3 )
+44/texture = ExtResource( 22 )
 44/tex_offset = Vector2( 0, 0 )
 44/modulate = Color( 1, 1, 1, 1 )
 44/region = Rect2( 1260, 490, 70, 70 )
@@ -749,7 +749,7 @@ points = PoolVector2Array( 72, 72, 0, 72, 0, 0, 72, 0 )
 
 [sub_resource type="TileSet" id=28]
 0/name = "treeLeaves_default.png 0"
-0/texture = ExtResource( 37 )
+0/texture = ExtResource( 40 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 224, 0, 64, 40 )
@@ -763,7 +763,7 @@ points = PoolVector2Array( 72, 72, 0, 72, 0, 0, 72, 0 )
 0/shapes = [  ]
 0/z_index = 0
 1/name = "foliagePack_default.png 1"
-1/texture = ExtResource( 36 )
+1/texture = ExtResource( 39 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
 1/region = Rect2( 584, 968, 56, 48 )
@@ -784,7 +784,7 @@ points = PoolVector2Array( 72, 72, 0, 72, 0, 0, 72, 0 )
 } ]
 1/z_index = 0
 2/name = "foliagePack_default.png 2"
-2/texture = ExtResource( 36 )
+2/texture = ExtResource( 39 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 272, 960, 88, 48 )
@@ -798,7 +798,7 @@ points = PoolVector2Array( 72, 72, 0, 72, 0, 0, 72, 0 )
 2/shapes = [  ]
 2/z_index = 0
 3/name = "rock.png 3"
-3/texture = ExtResource( 35 )
+3/texture = ExtResource( 38 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 0, 0, 72, 72 )
@@ -821,22 +821,22 @@ points = PoolVector2Array( 72, 72, 0, 72, 0, 0, 72, 0 )
 
 [sub_resource type="AtlasTexture" id=29]
 flags = 4
-atlas = ExtResource( 32 )
+atlas = ExtResource( 41 )
 region = Rect2( 0, 0, 178, 162 )
 
 [sub_resource type="AtlasTexture" id=30]
 flags = 4
-atlas = ExtResource( 33 )
+atlas = ExtResource( 37 )
 region = Rect2( 0, 0, 158, 146 )
 
 [sub_resource type="AtlasTexture" id=31]
 flags = 4
-atlas = ExtResource( 30 )
+atlas = ExtResource( 31 )
 region = Rect2( 0, 0, 196, 162 )
 
 [sub_resource type="AtlasTexture" id=32]
 flags = 4
-atlas = ExtResource( 31 )
+atlas = ExtResource( 42 )
 region = Rect2( 0, 0, 180, 146 )
 
 [sub_resource type="SpriteFrames" id=33]
@@ -858,19 +858,19 @@ extents = Vector2( 39.0227, 36.6169 )
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 39.5837, 37.1777 )
 
-[sub_resource type="CapsuleShape2D" id=36]
+[sub_resource type="CapsuleShape2D" id=38]
 radius = 63.8213
 height = 69.4299
 
-[sub_resource type="DynamicFont" id=37]
-font_data = ExtResource( 42 )
+[sub_resource type="DynamicFont" id=36]
+font_data = ExtResource( 43 )
 
-[sub_resource type="DynamicFont" id=38]
-font_data = ExtResource( 42 )
+[sub_resource type="DynamicFont" id=37]
+font_data = ExtResource( 43 )
 
 [node name="Game" type="Node2D"]
 
-[node name="Camera" parent="." instance=ExtResource( 2 )]
+[node name="Camera" parent="." instance=ExtResource( 4 )]
 limit_top = -300
 
 [node name="Layers" type="Control" parent="."]
@@ -881,7 +881,7 @@ __meta__ = {
 }
 
 [node name="Background" type="TileMap" parent="Layers"]
-tile_set = ExtResource( 29 )
+tile_set = ExtResource( 6 )
 cell_size = Vector2( 70, 70 )
 collision_layer = 0
 collision_mask = 0
@@ -913,7 +913,7 @@ tile_data = PoolIntArray( 589857, 536870915, 0, 589871, 3, 0 )
 [node name="Blocker" type="KinematicBody2D" parent="EnemyInstance"]
 collision_layer = 9
 collision_mask = 9
-script = ExtResource( 34 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -923,7 +923,7 @@ position = Vector2( 2830.34, 314.305 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 33 )
 animation = "Enemy"
-frame = 10
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyInstance/Blocker"]
@@ -939,27 +939,27 @@ position = Vector2( 2830.67, 314.564 )
 shape = SubResource( 35 )
 
 [node name="PlayerInstance" type="Node2D" parent="."]
-script = ExtResource( 14 )
+script = ExtResource( 10 )
 
-[node name="Player" parent="PlayerInstance" instance=ExtResource( 1 )]
+[node name="Player" parent="PlayerInstance" instance=ExtResource( 3 )]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 38 )
+stream = ExtResource( 8 )
 autoplay = true
 
 [node name="Coin_Container" type="Node2D" parent="."]
-script = ExtResource( 40 )
+script = ExtResource( 2 )
 
-[node name="Coin" parent="Coin_Container" instance=ExtResource( 41 )]
+[node name="Coin" parent="Coin_Container" instance=ExtResource( 5 )]
 position = Vector2( 3954.13, 118.744 )
 scale = Vector2( 0.3, 0.3 )
 
 [node name="Exit" type="Area2D" parent="."]
-script = ExtResource( 43 )
+script = ExtResource( 9 )
 
 [node name="ExitPortal" type="CollisionShape2D" parent="Exit"]
 position = Vector2( 6263.92, 672.089 )
-shape = SubResource( 36 )
+shape = SubResource( 38 )
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
@@ -974,7 +974,7 @@ __meta__ = {
 margin_top = -0.603378
 margin_right = 88.0
 margin_bottom = 24.3966
-custom_fonts/font = SubResource( 37 )
+custom_fonts/font = SubResource( 36 )
 text = "Score: 0"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -984,7 +984,7 @@ __meta__ = {
 margin_left = 940.825
 margin_right = 1022.83
 margin_bottom = 24.0
-custom_fonts/font = SubResource( 38 )
+custom_fonts/font = SubResource( 37 )
 text = "Lives: 10"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -998,7 +998,5 @@ margin_bottom = 61.727
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Sound Effects" type="Node2D" parent="."]
 [connection signal="body_entered" from="EnemyInstance/Blocker/Area2D" to="EnemyInstance/Blocker" method="_on_Area2D_body_entered"]
 [connection signal="tree_entered" from="Exit/ExitPortal" to="Exit" method="_on_CollisionShape2D_tree_entered"]
