@@ -7,7 +7,7 @@
 [ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Tile.tres" type="TileSet" id=6]
 [ext_resource path="res://Assets/Level Pieces/Tiles/castle.png" type="Texture" id=7]
-[ext_resource path="res://Assets/Audio/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=8]
+[ext_resource path="res://Assets/Audio/Music/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=8]
 [ext_resource path="res://Level/Exit.gd" type="Script" id=9]
 [ext_resource path="res://Player/Player Instance.gd" type="Script" id=10]
 [ext_resource path="res://Assets/Level Pieces/Tiles/grassMid.png" type="Texture" id=11]
@@ -43,6 +43,7 @@
 [ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=41]
 [ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=42]
 [ext_resource path="res://Assets/Fonts/kenpixel_square.ttf" type="DynamicFontData" id=43]
+
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 70, 70, 0, 70, 0, 0, 70, 0 )

@@ -15,13 +15,17 @@ _global_script_class_icons={
 
 [application]
 
-config/name="04-2D-Platformer"
+config/name="King's Landing"
 run/main_scene="res://Bumper Screens/Start.tscn"
-config/icon="res://icon.png"
+config/icon="res://King's Landing-1.png.png"
 
 [autoload]
 
 Global="*res://Global.gd"
+
+[display]
+
+window/size/height=868
 
 [input]
 

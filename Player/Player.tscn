@@ -62,87 +62,87 @@ region = Rect2( 800, 0, 160, 160 )
 [sub_resource type="AtlasTexture" id=10]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 512, 0, 128, 126 )
+region = Rect2( 768, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=11]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 640, 0, 128, 126 )
+region = Rect2( 896, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=12]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 768, 0, 128, 126 )
+region = Rect2( 512, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=13]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 896, 0, 128, 126 )
+region = Rect2( 640, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=14]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 1792, 0, 128, 126 )
+region = Rect2( 768, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=15]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 1920, 0, 128, 126 )
+region = Rect2( 896, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=16]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 2048, 0, 128, 126 )
+region = Rect2( 1792, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=17]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 2176, 0, 128, 126 )
+region = Rect2( 1920, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=18]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 768, 0, 128, 126 )
+region = Rect2( 2048, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=19]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 896, 0, 128, 126 )
+region = Rect2( 2176, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=20]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 256, 0, 128, 126 )
+region = Rect2( 0, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=21]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 0, 0, 128, 126 )
+region = Rect2( 128, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=22]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 128, 0, 128, 126 )
+region = Rect2( 256, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=23]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 256, 0, 128, 126 )
+region = Rect2( 384, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=24]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 384, 0, 128, 126 )
+region = Rect2( 1408, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=25]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 1408, 0, 128, 126 )
+region = Rect2( 1664, 0, 128, 126 )
 
 [sub_resource type="AtlasTexture" id=26]
 flags = 4
 atlas = ExtResource( 13 )
-region = Rect2( 1664, 0, 128, 126 )
+region = Rect2( 256, 0, 128, 126 )
 
 [sub_resource type="SpriteFrames" id=27]
 animations = [ {
@@ -156,34 +156,34 @@ animations = [ {
 "name": "Coin",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
-"loop": true,
-"name": "Jumping",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
-"loop": true,
-"name": "Running",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 18 ), SubResource( 19 ) ],
+"frames": [ SubResource( 10 ), SubResource( 11 ) ],
 "loop": true,
 "name": "Falling",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 20 ) ],
+"frames": [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ) ],
 "loop": true,
-"name": "Idle",
+"name": "Jumping",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ) ],
+"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ) ],
+"loop": true,
+"name": "Running",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ) ],
 "loop": true,
 "name": "Moving",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 25 ), SubResource( 26 ), SubResource( 25 ) ],
+"frames": [ SubResource( 24 ), SubResource( 25 ), SubResource( 24 ) ],
 "loop": true,
 "name": "Punch",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 26 ) ],
+"loop": true,
+"name": "Idle",
 "speed": 5.0
 } ]
 
@@ -235,7 +235,7 @@ one_shot = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 27 )
 animation = "Running"
-frame = 2
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

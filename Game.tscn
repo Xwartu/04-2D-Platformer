@@ -37,7 +37,7 @@
 [ext_resource path="res://Assets/Level Pieces/Ice/rock.png" type="Texture" id=35]
 [ext_resource path="res://Assets/Level Pieces/Foliage/foliagePack_default.png" type="Texture" id=36]
 [ext_resource path="res://Assets/Level Pieces/Foliage/treeLeaves_default.png" type="Texture" id=37]
-[ext_resource path="res://Assets/Audio/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=38]
+[ext_resource path="res://Assets/Audio/Music/CHIPTUNE_The_Bards_Tale.ogg" type="AudioStream" id=38]
 [ext_resource path="res://Assets/Level Pieces/Tiles/castle.png" type="Texture" id=39]
 [ext_resource path="res://Coin/Coin_Container.gd" type="Script" id=40]
 [ext_resource path="res://Coin/Coin.tscn" type="PackedScene" id=41]
