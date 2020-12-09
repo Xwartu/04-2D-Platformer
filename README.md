@@ -1,5 +1,5 @@
-# 04-2D-Platformer
-C220 2D Platformer 10/22/20
+# 04-2D-Platformer (King's Landing)
+C220 2D Platformer 12/12/20
 
 Building a cursory platformer for MSCH-C220 Fall.
 
