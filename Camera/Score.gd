@@ -7,4 +7,4 @@ func _ready():
 
 func update_score(s):
 	global.score += s
-	$Score.text = "Score: " + str(global.score)
+	#$Score.text = "Score: " + str(global.score)
