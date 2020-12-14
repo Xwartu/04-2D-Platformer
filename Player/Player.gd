@@ -1,6 +1,11 @@
 extends KinematicBody2D
 
 onready var HUD = get_node("/root/Game/HUD/HUD")
+onready var effect_explosion = get_node("/root/Game/Sound_Effects/Death")
+
+func play_sound(sound):
+	sound.play()
+
 
 onready var SM = $StateMachine
 onready var VP = get_viewport_rect()
@@ -35,6 +40,7 @@ func _physics_process(_delta):
 	if direction > 0 and $AnimatedSprite.flip_h: $AnimatedSprite.flip_h = false
 	
 	if position.y > Global.death_zone:
+		play_sound(effect_explosion)
 		HUD.update_lives(-1)
 		queue_free()
 		

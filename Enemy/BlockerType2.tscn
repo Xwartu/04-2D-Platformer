@@ -1,25 +1,24 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://Enemy/Blocker.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=2]
+[ext_resource path="res://Enemy/Blocker2.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Enemies/robot_blueDrive2.png" type="Texture" id=3]
-[ext_resource path="res://Assets/Enemies/robot_redJump.png" type="Texture" id=4]
-[ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=5]
-
+[ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Enemies/robot_redJump.png" type="Texture" id=5]
 
 [sub_resource type="AtlasTexture" id=1]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 5 )
 region = Rect2( 0, 0, 196, 162 )
 
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 4 )
 region = Rect2( 0, 0, 180, 146 )
 
 [sub_resource type="AtlasTexture" id=3]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 2 )
 region = Rect2( 0, 0, 178, 162 )
 
 [sub_resource type="AtlasTexture" id=4]
@@ -41,10 +40,10 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 33.3681, 36.9527 )
+extents = Vector2( 40.5, 33.75 )
 
 [sub_resource type="RectangleShape2D" id=7]
-extents = Vector2( 33.0875, 30.4922 )
+extents = Vector2( 39.4444, 30.2778 )
 
 [node name="Blocker" type="KinematicBody2D"]
 collision_layer = 4
@@ -57,8 +56,8 @@ __meta__ = {
 [node name="Sprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 5 )
-animation = "Enemy"
-frame = 10
+animation = "Enemy 2"
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

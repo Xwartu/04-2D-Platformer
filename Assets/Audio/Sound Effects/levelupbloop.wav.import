@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/levelupbloop.wav-a5a803331540b9014d9e69f166421c90.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Sound Effects/levelupbloop.wav"
+dest_files=[ "res://.import/levelupbloop.wav-a5a803331540b9014d9e69f166421c90.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

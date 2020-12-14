@@ -5,7 +5,6 @@ var fade_speed = 0.015
 var score = 0
 var lives = 15
 var save = 0 
-var load2 = 0
 
 var fade_in = false
 var fade_out = ""
