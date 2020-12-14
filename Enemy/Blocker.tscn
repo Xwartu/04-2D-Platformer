@@ -1,0 +1,73 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Blocker.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Enemies/robot_redDrive2.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Enemies/robot_blueDrive2.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Enemies/robot_redJump.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Enemies/robot_blueJump.png" type="Texture" id=5]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 196, 162 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 180, 146 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 178, 162 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 158, 146 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 1 ), SubResource( 2 ), SubResource( 2 ) ],
+"loop": true,
+"name": "Enemy 2",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 3 ), SubResource( 3 ), SubResource( 4 ), SubResource( 4 ), SubResource( 3 ), SubResource( 3 ), SubResource( 4 ), SubResource( 4 ), SubResource( 3 ), SubResource( 3 ), SubResource( 4 ), SubResource( 4 ) ],
+"loop": true,
+"name": "Enemy",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 33.3681, 36.9527 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 33.0875, 30.4922 )
+
+[node name="Blocker" type="KinematicBody2D"]
+collision_layer = 4
+collision_mask = 2147483652
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 5 )
+animation = "Enemy"
+frame = 10
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 6 )
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2( 0.9, 0.9 )
+collision_layer = 9
+collision_mask = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 7 )
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

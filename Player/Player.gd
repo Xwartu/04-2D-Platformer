@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+onready var HUD = get_node("/root/Game/HUD/HUD")
+
 onready var SM = $StateMachine
 onready var VP = get_viewport_rect()
 
@@ -33,6 +35,7 @@ func _physics_process(_delta):
 	if direction > 0 and $AnimatedSprite.flip_h: $AnimatedSprite.flip_h = false
 	
 	if position.y > Global.death_zone:
+		HUD.update_lives(-1)
 		queue_free()
 		
 
