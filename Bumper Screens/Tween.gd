@@ -1,20 +1,33 @@
 extends ColorRect
 
 var c = 0
-var colors = [  # Open Color Blue
-	Color8(24, 100, 171)	
-	,Color8(25, 113, 194)
-	,Color8(28, 126, 214)	
-	,Color8(34, 139, 230)	
-	,Color8(51, 154, 240)		
-	,Color8(77, 171, 247)	
-	,Color8(116, 192, 252)	
-	,Color8(77, 171, 247)	 
-	,Color8(51, 154, 240) 
-	,Color8(34, 139, 230) 
-	,Color8(28, 126, 214)
-	,Color8(25, 113, 194)
-	,Color8(24, 100, 171)
+var colors = [  # Open Color Grey and Orange
+	Color8(33, 37, 41)	
+	,Color8(52, 58, 64)
+	,Color8(73, 80, 87)	
+	,Color8(134, 142, 150)	
+	,Color8(173, 181, 189)		
+	,Color8(206, 213, 218)	
+	,Color8(255, 244, 230)
+	,Color8(255, 232, 204)
+	,Color8(255, 216, 168)
+	,Color8(255, 192, 120)
+	,Color8(255, 169, 77)
+	,Color8(255, 146, 43)
+	,Color8(253, 126, 20)
+	,Color8(253, 126, 20)
+	,Color8(255, 146, 43)
+	,Color8(255, 169, 77)
+	,Color8(255, 192, 120)
+	,Color8(255, 216, 168)
+	,Color8(255, 232, 204)
+	,Color8(255, 244, 230)	
+	,Color8(206, 213, 218)	
+	,Color8(173, 181, 189)
+	,Color8(134, 142, 150)
+	,Color8(73, 80, 87)	
+	,Color8(52, 58, 64)
+	,Color8(33, 37, 41)
 ]
 
 func _ready():

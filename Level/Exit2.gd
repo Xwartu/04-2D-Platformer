@@ -11,9 +11,8 @@ func play_sound(sound):
 
 func _on_Exit_body_entered(body):
 	play_sound(effect_explosion)
-	if global.score == 100:
+	if global.score == 300:
 		if body.name == "Player":
 			get_tree().change_scene("res://Level/Level2.tscn")
-			global.score = 0
 
 

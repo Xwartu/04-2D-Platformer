@@ -22,6 +22,7 @@ config/icon="res://King's Landing-1.png.png"
 [autoload]
 
 Global="*res://Global.gd"
+SaveSystem="*res://SaveSystem.tscn"
 
 [display]
 

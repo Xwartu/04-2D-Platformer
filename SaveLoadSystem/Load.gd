@@ -8,10 +8,10 @@ func play_sound(sound):
 
 
 func _on_Area2D_body_entered(body):
+	play_sound(effect_explosion)
 	if body.name == "Player":
 		if global.save == 1:
 			get_tree().change_scene("res://Game.tscn")
-	play_sound(effect_explosion)
 	if body.name == "Player":
 		if global.save == 2:
 			get_tree().change_scene("res://Level/Level2.tscn")
