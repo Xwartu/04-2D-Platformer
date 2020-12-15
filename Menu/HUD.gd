@@ -15,4 +15,4 @@ func update_lives(l):
 	global.lives += l
 	$Lives.text = "Lives: " + str(global.lives)
 	if global.lives<= 0:
-		get_tree().change_scene("res://Screens/End Screen/End.tscn")
+		get_tree().change_scene("res://Bumper Screens/Dead.tscn")
